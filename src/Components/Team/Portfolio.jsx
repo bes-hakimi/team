@@ -18,7 +18,7 @@ export default function Portfolio({ developer }) {
             <div className='mt-4 grid grid-cols-3 gap-4'>
                 {developer.portfolio.map(portfolio => (
                     <Link key={portfolio.id} onClick={() => window.scrollTo(0, 0)} to={`/project/${portfolio.id}`} className='w-full h-16 sm:h-20 md:h-40 overflow-hidden'>
-                        <ImageLoader src={portfolio.image} alt={portfolio.title} className='w-full h-full object-cover hover:scale-105 hover:cursor-pointer ease-in duration-200' />
+                        <ImageLoader src={portfolio.image} alt={portfolio.title} className='w-full h-full object-cover hover:scale-105 hover:cursor-pointer transition-all duration-200' />
                     </Link>
                 ))}
             </div>

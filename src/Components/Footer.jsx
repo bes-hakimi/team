@@ -122,7 +122,7 @@ export default function Footer({
                     </p>
 
                     <p className='text-xs md:text-sm lg:text-base flex gap-1 items-center'>
-                        Built by Jawid Hakimi with <span className='text-red-500 text-xl'>♥</span>
+                        Built by Besmillah Hakimi with <span className='text-red-500 text-xl'>♥</span>
                     </p>
                 </div>
                 <Link to="#" onClick={scrollToTop} className='flex justify-end items-center'>
