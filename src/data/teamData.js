@@ -2,29 +2,29 @@
 const teamData = [
   {
     id: 1,
-    firstname: "Jawid",
+    firstname: "Besmillah",
     lastname: "Hakimi",
     role: "Frontend Developer",
     total_projects: 12,
     years_of_experience: 5,
-    cv: "/media/cv/jawid_hakimi_cv.pdf",
+    cv: "/media/cv/besmillah_hakimi_cv.pdf",
     bio: "Frontend developer with strong skills in React, Next.js, and modern UI/UX design. Passionate about building responsive, interactive, and user-friendly web applications. Experienced in integrating APIs, optimizing performance, and translating complex designs into clean, maintainable code.",
-    profile_image: "/media/team/1.jpg",
-    detail_image: "/media/team/1.jpg",
+    profile_image: "/media/team/user.jpg",
+    detail_image: "/media/team/user.jpg",
     social: {
-      linkedin: "https://linkedin.com/in/besmillah",
-      github: "https://github.com/besmillah",
-      twitter: "https://twitter.com/besmillah",
-      facebook: "https://facebook.com/besmillah"
+      linkedin: "https://linkedin.com/in/example",
+      github: "https://github.com/example",
+      twitter: "https://twitter.com/example",
+      facebook: "https://facebook.com/example"
     },
     address: {
-      location: "Berlin, Germany",
-      phone: "+49 234 456 5436",
-      email: "jawid@gmail.com"
+      location: "Dasht-e Barchi, Kabul, Afghanistan",
+      phone: "+93 796968666",
+      email: "hakimi.work2025@gmail.com"
     },
     skills: [
-      { icon: "/media/icons/nextjs.png", title: "Next.js", description: "Frontend framework", pro_level: 90 },
       { icon: "/media/icons/react.png", title: "React", description: "UI library", pro_level: 88 },
+      { icon: "/media/icons/nextjs.png", title: "Next.js", description: "Frontend framework", pro_level: 90 },
       { icon: "/media/icons/tailwind.webp", title: "Tailwind CSS", description: "Styling framework", pro_level: 85 },
       { icon: "/media/icons/figma.png", title: "Figma", description: "UI/UX design tool", pro_level: 80 }
     ],

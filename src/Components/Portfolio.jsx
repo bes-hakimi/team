@@ -2,7 +2,7 @@ import { useState } from "react";
 import projectsData from "../data/projectsData";
 import ProjectCard from "./Portfolio/ProjectCard";
 
-export default function Portfolio() {
+export default function Portfolio(props) {
   const [filter, setFilter] = useState("all");
 
   const filteredProjects =
@@ -12,7 +12,7 @@ export default function Portfolio() {
 
   return (
     <div className="bg-white p-6 rounded-sm flex flex-col gap-4">
-      <h1 className="text-lg md:text-3xl text-[#e87a35] font-bold text-center">
+      <h1 id={props.id} className="text-lg md:text-3xl text-[#e87a35] font-bold text-center">
         Portfolio
       </h1>
       <p className="w-[90%] md:w-[50%] mx-auto text-center text-sm md:text-base">
