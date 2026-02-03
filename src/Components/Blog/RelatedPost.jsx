@@ -6,7 +6,6 @@ import ImageLoader from '../ImageLoader';
 export default function RelatedPost() {
     const navigate = useNavigate();
     const { id } = useParams();
-    const imageUrl = '/images/';
 
     const relatedPosts = blogPosts.filter(post => post.id.toString() !== id);
 

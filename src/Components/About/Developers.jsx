@@ -26,13 +26,13 @@ export default function Developers() {
                             </p>
 
                             <div className='flex gap-2 md:gap-4 mt-2 md:mt-4'>
-                                <a href={developer.social.facebook} target='_blank' >
+                                <a href={developer.social.facebook} target='_blank'  rel="noopener noreferrer" >
                                     <FaFacebookF className='p-1 lg:p-2 rounded-full w-4 h-4 lg:w-7 lg:h-7 bg-[#e87a35] text-white hover:scale-110 transition-all duration-150' />
                                 </a>
-                                <a href={developer.social.linkedin} target='_blank'>
+                                <a href={developer.social.linkedin} target='_blank'  rel="noopener noreferrer">
                                     <FaLinkedinIn className='p-1 lg:p-2 rounded-full w-4 h-4 lg:w-7 lg:h-7 bg-[#e87a35] text-white hover:scale-110 transition-all duration-150' />
                                 </a>
-                                <a href={developer.social.github} target='_blank'>
+                                <a href={developer.social.github} target='_blank'  rel="noopener noreferrer">
                                     <FaGithub className='p-1 lg:p-2 rounded-full w-4 h-4 lg:w-7 lg:h-7 bg-[#e87a35] text-white hover:scale-110 transition-all duration-150' />
                                 </a>
                             </div>

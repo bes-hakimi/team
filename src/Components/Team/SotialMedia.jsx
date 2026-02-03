@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
 export default function SotialMedia({ developer }) {
-    const [media, setMedia] = useState({});
 
     return (
         <div className='py-2 bg-white rounded-md flex flex-col justify-center items-center'>

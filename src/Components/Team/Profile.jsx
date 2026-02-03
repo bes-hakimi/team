@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ReactTyped } from "react-typed";
 import { saveAs } from 'file-saver';
 import clipboardCopy from 'clipboard-copy';
@@ -9,7 +9,6 @@ import { IoClose } from "react-icons/io5";
 import ImageLoader from '../ImageLoader';
 
 export default function Profile({ scrollToMessage,developer }) {
-    const [developers, setdeveloper] = useState({});
     const [share, setShare] = useState(false);
     const [isCopied, setIsCopied] = useState(false);
     const shareUrl = window.location.href;

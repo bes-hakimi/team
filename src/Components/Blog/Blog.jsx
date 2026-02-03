@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { MdKeyboardArrowRight, MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import blogPosts from '../../data/blogPosts';
-import IsLoading from '../isLoading/IsLoading.jsx';
-import Error from '../Error/Error.jsx';
 import ImageLoader from '../ImageLoader';
 
 export default function Blog(props) {

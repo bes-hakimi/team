@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -27,15 +27,15 @@ export default function About(props) {
                     {/* social icons */}
                     <div className='flex w-full md:justify-center mt-3'>
                         <div className='flex gap-2 md:gap-4 w-fit px-3 md:px-6 py-1 md:py-[6px] rounded-md border md:border-2 border-[#e87a35]'>
-                            <a href="">
+                            <button >
                                 <FaFacebookF className='p-1 md:p-2 rounded-full w-6 h-6 md:w-8 md:h-8 bg-[#e87a35] text-white hover:scale-110 transition-all duration-150' />
-                            </a>
-                            <a href="">
+                            </button>
+                            <button >
                                 <FaLinkedinIn className='p-1 md:p-2 rounded-full w-6 h-6 md:w-8 md:h-8 bg-[#e87a35] text-white hover:scale-110 transition-all duration-150' />
-                            </a>
-                            <a href="">
+                            </button>
+                            <button >
                                 <FaInstagram className='p-1 md:p-2 rounded-full w-6 h-6 md:w-8 md:h-8 bg-[#e87a35] text-white hover:scale-110 transition-all duration-150' />
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>

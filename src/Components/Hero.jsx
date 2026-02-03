@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { ReactTyped } from "react-typed";
 
 export default function Hero() {
@@ -8,7 +7,7 @@ export default function Hero() {
       {/* تصویر پس‌زمینه */}
       <img
         src="media/images/welcome.jpg"
-        alt="welcome image"
+        alt="welcome banner"
         className="w-full h-full object-cover"
       />
 
