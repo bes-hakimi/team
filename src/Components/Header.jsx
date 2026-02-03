@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { animateScroll } from 'react-scroll'
 import { FaSearch } from "react-icons/fa";
-import Login from './User/Login';
 import ImageLoader from './ImageLoader';
 
 

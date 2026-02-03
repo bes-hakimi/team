@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { GiSkills } from "react-icons/gi";
 import ImageLoader from '../ImageLoader';
 

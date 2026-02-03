@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { MdOutlineCastForEducation } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { PiPhoneThin } from "react-icons/pi";

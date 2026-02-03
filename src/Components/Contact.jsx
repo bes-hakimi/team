@@ -109,7 +109,7 @@ export default function Contact(props) {
 
                     {/* image */}
                     <div className='p-4'>
-                        <img src="media/images/contact.png" alt="contact image" className='w-full h-full object-cover' />
+                        <img src="media/images/contact.png" alt="contact" className='w-full h-full object-cover' />
                     </div>
                 </div>
             </div>

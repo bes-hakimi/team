@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import { animateScroll } from 'react-scroll'
 
@@ -122,7 +122,7 @@ export default function Footer({
                     </p>
 
                     <p className='text-xs md:text-sm lg:text-base flex gap-1 items-center'>
-                        Built by Besmillah Hakimi with <span className='text-red-500 text-xl'>♥</span>
+                        Built by Fatima Zaki with <span className='text-red-500 text-xl'>♥</span>
                     </p>
                 </div>
                 <Link to="#" onClick={scrollToTop} className='flex justify-end items-center'>
